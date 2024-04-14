@@ -7,7 +7,7 @@ sys.path.append('../')
 import time
 
 import matplotlib
-import numpy as np
+import cupy as np
 
 import matrixsmall as ms
 from matrixsmall.dist.ps import ps

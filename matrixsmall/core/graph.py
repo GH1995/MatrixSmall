@@ -43,7 +43,7 @@ class Graph:
             import networkx as nx
             import matplotlib.pyplot as plt
             from matplotlib.colors import ListedColormap
-            import numpy as np
+            import cupy as np
         except:
             raise Exception("Need Module networkx")
 

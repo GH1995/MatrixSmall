@@ -4,7 +4,7 @@ Created on Wed Jul 10 17:34:46 CST 2019
 
 @author: chenzhen
 """
-import numpy as np
+import cupy as np
 import abc
 from ..core import Node
 

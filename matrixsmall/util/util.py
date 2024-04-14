@@ -9,7 +9,7 @@ import gzip
 import os
 from urllib.request import urlretrieve
 
-import numpy as np
+import cupy as np
 
 
 def mnist(path=None):

@@ -12,7 +12,7 @@ import sys
 sys.path.append('../../')
 
 import grpc
-import numpy as np
+import cupy as np
 from sklearn.datasets import fetch_openml
 
 import matrixsmall_serving as mss

@@ -4,7 +4,7 @@ Created on Wed Jul 31 12:24:31 CST 2019
 
 @author: chenzhen
 """
-import numpy as np
+import cupy as np
 
 from ..core import Node
 from .proto import common_pb2

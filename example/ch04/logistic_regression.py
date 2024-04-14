@@ -8,7 +8,7 @@ Created on Tue Jan 21 16:28:12 2020
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 import matrixsmall as ms
 
 male_heights = np.random.normal(171, 6, 500)

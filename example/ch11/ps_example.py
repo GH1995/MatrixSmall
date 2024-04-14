@@ -18,7 +18,7 @@ from matrixsmall.trainer import DistTrainerParameterServer
 import matrixsmall as ms
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.datasets import fetch_openml
-import numpy as np
+import cupy as np
 
 
 

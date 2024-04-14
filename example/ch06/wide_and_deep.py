@@ -8,7 +8,7 @@ Created on Wed Mar  4 14:34:10 2020
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 from sklearn.datasets import make_classification
 import matrixsmall as ms
 

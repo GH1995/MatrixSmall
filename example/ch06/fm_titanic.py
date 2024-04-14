@@ -8,7 +8,7 @@ Created on Wed Mar  4 20:38:10 2020
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import matrixsmall as ms

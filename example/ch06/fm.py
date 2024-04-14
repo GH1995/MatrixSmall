@@ -8,7 +8,7 @@ Created on Tue Mar  3 16:13:19 2020
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 from sklearn.datasets import make_circles
 import matrixsmall as ms
 

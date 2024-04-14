@@ -8,7 +8,7 @@ Created on Sat Mar 14 11:02:28 2020
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 import matrixsmall as ms
 from scipy import signal
 

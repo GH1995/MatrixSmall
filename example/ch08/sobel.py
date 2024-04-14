@@ -9,7 +9,7 @@ import sys
 sys.path.append('../..')
 
 import matrixsmall as ms
-import numpy as np
+import cupy as np
 import matplotlib.pyplot as plt
 import matplotlib
 

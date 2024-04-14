@@ -8,7 +8,7 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-import numpy as np
+import cupy as np
 
 import grpc
 import matrixsmall as ms

@@ -8,7 +8,7 @@ import json
 import os
 import datetime
 
-import numpy as np
+import cupy as np
 
 
 from ..core.core import get_node_from_graph

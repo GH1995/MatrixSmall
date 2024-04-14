@@ -11,7 +11,7 @@
 import sys
 sys.path.append('../../')
 
-import numpy as np
+import cupy as np
 from sklearn.datasets import fetch_openml
 from sklearn.preprocessing import OneHotEncoder
 import matrixsmall as ms

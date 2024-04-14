@@ -6,7 +6,7 @@ Created on Wed Jun  5 15:23:01 2019
 """
 import abc
 
-import numpy as np
+import cupy as np
 
 from .graph import Graph, default_graph
 

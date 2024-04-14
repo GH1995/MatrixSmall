@@ -8,7 +8,7 @@ Created on Wed Jul 10 15:19:42 CST 2019
 import abc
 import time
 
-import numpy as np
+import cupy as np
 
 from ..core import Variable, default_graph
 

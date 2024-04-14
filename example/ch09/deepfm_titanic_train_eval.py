@@ -11,7 +11,7 @@
 import sys
 sys.path.append('../../')
 
-import numpy as np
+import cupy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import matrixsmall as ms

@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../..')
 
-import numpy as np
+import cupy as np
 import matrixsmall as ms
 
 
@@ -12,7 +12,7 @@ import matrixsmall as ms
 男性体重，根据均值57，标准差8的正态分布采样500个女性体重。根据均值16，标准差
 2的正态分布采样500个男性体脂率，根据均值22，标准差2的正态分布采样500个女性体
 脂率。构造500个1，作为男性标签，构造500个-1，作为女性标签。将数据组装成一个
-1000 x 4的numpy数组，前3列分别是身高、体重和体脂率，最后一列是性别标签。
+1000 x 4的cupy数组，前3列分别是身高、体重和体脂率，最后一列是性别标签。
 """
 male_heights = np.random.normal(171, 6, 500)
 female_heights = np.random.normal(158, 5, 500)

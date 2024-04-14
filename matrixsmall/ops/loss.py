@@ -14,7 +14,7 @@ Created on Wed July  9 15:13:01 2019
 @author: chenzhen
 """
 
-import numpy as np
+import cupy as np
 
 from ..core import Node
 from ..ops import SoftMax

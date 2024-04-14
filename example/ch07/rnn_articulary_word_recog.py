@@ -9,7 +9,7 @@ import sys
 sys.path.append('../..')
 
 import pandas as pd
-import numpy as np
+import cupy as np
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from scipy.io import arff
 
