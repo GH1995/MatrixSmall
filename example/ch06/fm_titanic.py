@@ -11,7 +11,7 @@ sys.path.append('../..')
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-import matrixslow as ms
+import matrixsmall as ms
 
 # 读取数据，去掉无用列
 data = pd.read_csv("../../data/titanic.csv").drop(["PassengerId", 

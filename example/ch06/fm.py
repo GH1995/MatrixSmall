@@ -10,7 +10,7 @@ sys.path.append('../..')
 
 import numpy as np
 from sklearn.datasets import make_circles
-import matrixslow as ms
+import matrixsmall as ms
 
 X, y = make_circles(600, noise=0.1, factor=0.2)
 y = y * 2 - 1

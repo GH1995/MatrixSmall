@@ -13,7 +13,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from scipy.io import arff
 
-import matrixslow as ms
+import matrixsmall as ms
 
 path_train = "../../data/ArticularyWordRecognition/ArticularyWordRecognition_TRAIN.arff"
 path_test = "../../data/ArticularyWordRecognition/ArticularyWordRecognition_TEST.arff"

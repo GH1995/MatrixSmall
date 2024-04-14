@@ -14,9 +14,9 @@ sys.path.append('../../')
 import numpy as np
 from sklearn.datasets import fetch_openml
 from sklearn.preprocessing import OneHotEncoder
-import matrixslow as ms
-from matrixslow.trainer import SimpleTrainer
-from matrixslow_serving.exporter import Exporter
+import matrixsmall as ms
+from matrixsmall.trainer import SimpleTrainer
+from matrixsmall_serving.exporter import Exporter
 
 
 # 加载MNIST数据集，取一部分样本并归一化

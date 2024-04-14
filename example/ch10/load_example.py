@@ -14,8 +14,8 @@ sys.path.append('../../')
 import numpy as np
 from sklearn.datasets import fetch_openml
 from sklearn.preprocessing import OneHotEncoder
-import matrixslow as ms
-from matrixslow.trainer import SimpleTrainer
+import matrixsmall as ms
+from matrixsmall.trainer import SimpleTrainer
 
 
 # 输入图像尺寸

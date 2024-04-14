@@ -15,8 +15,8 @@ import grpc
 import numpy as np
 from sklearn.datasets import fetch_openml
 
-import matrixslow_serving as mss
-from matrixslow_serving.serving import serving_pb2, serving_pb2_grpc
+import matrixsmall_serving as mss
+from matrixsmall_serving.serving import serving_pb2, serving_pb2_grpc
 
 
 

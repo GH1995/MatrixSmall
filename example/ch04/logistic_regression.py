@@ -9,7 +9,7 @@ import sys
 sys.path.append('../..')
 
 import numpy as np
-import matrixslow as ms
+import matrixsmall as ms
 
 male_heights = np.random.normal(171, 6, 500)
 female_heights = np.random.normal(158, 5, 500)

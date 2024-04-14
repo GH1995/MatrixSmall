@@ -4,7 +4,7 @@ Created on Mon Aug 12 14:53:57 CST 2019
 
 @author: chenzhen
 """
-import matrixslow as ms
+import matrixsmall as ms
 
 
 class Exporter(object):

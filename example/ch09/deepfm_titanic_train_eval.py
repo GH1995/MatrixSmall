@@ -14,8 +14,8 @@ sys.path.append('../../')
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-import matrixslow as ms
-from matrixslow.trainer import SimpleTrainer
+import matrixsmall as ms
+from matrixsmall.trainer import SimpleTrainer
 
 
 

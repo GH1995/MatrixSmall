@@ -11,7 +11,7 @@
 import sys
 sys.path.append('../../')
 
-import matrixslow_serving as mss
+import matrixsmall_serving as mss
 
 
 print(mss.serving.MatrixSlowServer)

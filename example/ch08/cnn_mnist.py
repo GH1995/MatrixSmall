@@ -11,7 +11,7 @@ sys.path.append('../..')
 import numpy as np
 from sklearn.datasets import fetch_openml
 from sklearn.preprocessing import OneHotEncoder
-import matrixslow as ms
+import matrixsmall as ms
 
 # 加载MNIST数据集，取一部分样本并归一化
 X, y = fetch_openml('mnist_784', version=1, return_X_y=True)

@@ -9,7 +9,7 @@
 '''
 
 
-import matrixslow_serving as mss
+import matrixsmall_serving as mss
 import sys
 sys.path.append('.')
 sys.path.append('../')

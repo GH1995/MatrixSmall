@@ -9,21 +9,21 @@ import time
 import matplotlib
 import numpy as np
 
-import matrixslow as ms
-from matrixslow.dist.ps import ps
-from matrixslow.layer import *
-from matrixslow.ops import Add, Logistic, MatMul, ReLU, SoftMax, Reshape
-from matrixslow.ops.loss import CrossEntropyWithSoftMax, LogLoss
-from matrixslow.ops.metrics import Accuracy, Metrics
-from matrixslow.optimizer import *
-from matrixslow.trainer import (DistTrainerParameterServer,
+import matrixsmall as ms
+from matrixsmall.dist.ps import ps
+from matrixsmall.layer import *
+from matrixsmall.ops import Add, Logistic, MatMul, ReLU, SoftMax, Reshape
+from matrixsmall.ops.loss import CrossEntropyWithSoftMax, LogLoss
+from matrixsmall.ops.metrics import Accuracy, Metrics
+from matrixsmall.optimizer import *
+from matrixsmall.trainer import (DistTrainerParameterServer,
                                 DistTrainerRingAllReduce, Saver, SimpleTrainer)
-from matrixslow.util import *
-from matrixslow.util import ClassMining, vis
+from matrixsmall.util import *
+from matrixsmall.util import ClassMining, vis
 
-from matrixslow.model import *
+from matrixsmall.model import *
 
-from matrixslow_serving.exporter import Exporter
+from matrixsmall_serving.exporter import Exporter
 
 
 def plot_data(data_x, data_y, weights=None, bias=None):

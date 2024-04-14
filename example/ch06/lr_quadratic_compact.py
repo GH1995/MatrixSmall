@@ -9,7 +9,7 @@ import sys
 sys.path.append('../..')
 
 import numpy as np
-import matrixslow as ms
+import matrixsmall as ms
 from sklearn.datasets import make_circles
 
 # 获取同心圆状分布的数据，X的每行包含两个特征，y是1/0类别标签

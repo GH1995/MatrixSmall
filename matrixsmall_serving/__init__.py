@@ -1,3 +1,3 @@
-from . import matrixslow_serving
+from . import matrixsmall_serving
 from . import exporter
 from . import serving

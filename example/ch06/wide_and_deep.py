@@ -10,7 +10,7 @@ sys.path.append('../..')
 
 import numpy as np
 from sklearn.datasets import make_classification
-import matrixslow as ms
+import matrixsmall as ms
 
 # 特征维数
 dimension = 60

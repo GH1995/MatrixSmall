@@ -2,7 +2,7 @@ import sys
 sys.path.append('../..')
 
 import numpy as np
-import matrixslow as ms
+import matrixsmall as ms
 
 # 构造训练集
 male_heights = np.random.normal(171, 6, 500)

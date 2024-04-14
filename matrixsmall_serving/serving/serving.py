@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 
 import grpc
-import matrixslow as ms
+import matrixsmall as ms
 
 from .proto import serving_pb2, serving_pb2_grpc
 

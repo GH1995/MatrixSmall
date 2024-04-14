@@ -8,7 +8,7 @@ Created on Mon Mar 23 10:07:59 2020
 import sys
 sys.path.append('../..')
 
-import matrixslow as ms
+import matrixsmall as ms
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib

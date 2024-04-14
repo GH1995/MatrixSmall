@@ -8,4 +8,4 @@
 @Description:
 '''
 # -*- coding: utf-8 -*-
-from .matrixslow import *
+from .matrixsmall import *

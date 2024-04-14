@@ -12,10 +12,10 @@ import sys
 sys.path.append('../../')
 
 import argparse
-from matrixslow.dist.ps import ps
-from matrixslow_serving.exporter import Exporter
-from matrixslow.trainer import DistTrainerParameterServer
-import matrixslow as ms
+from matrixsmall.dist.ps import ps
+from matrixsmall_serving.exporter import Exporter
+from matrixsmall.trainer import DistTrainerParameterServer
+import matrixsmall as ms
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.datasets import fetch_openml
 import numpy as np

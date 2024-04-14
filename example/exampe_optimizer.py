@@ -9,7 +9,7 @@
 '''
 import sys
 sys.path.append('../')
-import matrixslow as ms
+import matrixsmall as ms
 import numpy as np
 
 

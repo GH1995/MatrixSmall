@@ -2,7 +2,7 @@ import sys
 sys.path.append('../..')
 
 import numpy as np
-import matrixslow as ms
+import matrixsmall as ms
 
 
 

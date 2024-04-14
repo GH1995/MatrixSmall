@@ -14,9 +14,9 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 import grpc
-import matrixslow_serving as mss
-from matrixslow.util import *
-from matrixslow_serving.serving import serving_pb2, serving_pb2_grpc
+import matrixsmall_serving as mss
+from matrixsmall.util import *
+from matrixsmall_serving.serving import serving_pb2, serving_pb2_grpc
 
 
 
